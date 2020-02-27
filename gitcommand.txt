@@ -1,0 +1,370 @@
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila
+$ git init
+Initialized empty Git repository in C:/Users/tcet/Desktop/shila/.git/
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git config--global shilasoahm "shila7980"
+git: 'config--global' is not a git command. See 'git --help'.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git config --global shilasoahm "shila7980"
+error: key does not contain a section: shilasoahm
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git config --global shilasoahm@gmail.com "shila7980"
+error: invalid key: shilasoahm@gmail.com
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git config --global user.name "shilasoahm"
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git config --global user.email "shilasoahm@gmail.com"
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git clone https://github.com/shilasoahm/shila
+Cloning into 'shila'...
+fatal: unable to access 'https://github.com/shilasoahm/shila/': Could not resolve host: github.com
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git clone https://github.com/shilasoahm/shila
+Cloning into 'shila'...
+fatal: unable to access 'https://github.com/shilasoahm/shila/': Could not resolve host: github.com
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git clone https://github.com/shilasoahm/shila
+Cloning into 'shila'...
+fatal: unable to access 'https://github.com/shilasoahm/shila/': Could not resolve host: github.com
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git clone https://github.com/shilasoahm/shila
+Cloning into 'shila'...
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/shilasoahm/shila/'
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git clone https://github.com/shilasoahm/shila
+Cloning into 'shila'...
+Logon failed, use ctrl+c to cancel basic credential prompt.
+shilashila7980remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/shilasoahm/shila/'
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git clone https://github.com/shilasoahm
+Cloning into 'shilasoahm'...
+fatal: unable to access 'https://github.com/shilasoahm/': Could not resolve host: github.com
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git clone https://github.com/shilasoahm/shila
+Cloning into 'shila'...
+fatal: unable to access 'https://github.com/shilasoahm/shila/': Could not resolve host: github.com
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git clone https://github.com/shilasoahm/shila
+Cloning into 'shila'...
+fatal: unable to access 'https://github.com/shilasoahm/shila/': Could not resolve host: github.com
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git clone https://github.com/shilasoahm/shila
+Cloning into 'shila'...
+fatal: unable to access 'https://github.com/shilasoahm/shila/': Could not resolve host: github.com
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git clone https://github.com/shilasoahm/shila.git
+Cloning into 'shila'...
+Logon failed, use ctrl+c to cancel basic credential prompt.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ git clone https://github.com/shilasoham/shila.git
+Cloning into 'shila'...
+warning: You appear to have cloned an empty repository.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila (master)
+$ cd shila
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git add f1.r
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git commit -m "f1.r"
+[master (root-commit) 399a397] f1.r
+ 1 file changed, 15 insertions(+)
+ create mode 100644 f1.r
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ config --list
+bash: config: command not found
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ config--list
+bash: config--list: command not found
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git remote add origin https://github.com/shilasoham/shila.git
+fatal: remote origin already exists.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git push origin master
+Logon failed, use ctrl+c to cancel basic credential prompt.
+remote: Invalid username or password.
+fatal: Authentication failed for 'https://github.com/shilasoham/shila.git/'
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git push origin master
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (3/3), 376 bytes | 376.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/shilasoham/shila.git
+ * [new branch]      master -> master
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git pull origin master
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+Unpacking objects: 100% (6/6), 1.33 KiB | 4.00 KiB/s, done.
+From https://github.com/shilasoham/shila
+ * branch            master     -> FETCH_HEAD
+   399a397..facea8b  master     -> origin/master
+Updating 399a397..facea8b
+Fast-forward
+ f1.r | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ config --list
+bash: config: command not found
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ config--list
+bash: config--list: command not found
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ gi config --list
+bash: gi: command not found
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=openssl
+http.sslcainfo=C:/Program Files/Git/mingw64/ssl/certs/ca-bundle.crt
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+credential.helper=manager
+user.name=shilasoahm
+user.email=shilasoahm@gmail.com
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+remote.origin.url=https://github.com/shilasoham/shila.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+branch.master.remote=origin
+branch.master.merge=refs/heads/master
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git config user.name
+shilasoahm
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git help config
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git status
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git diff --staged
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git branch -a
+* master
+  remotes/origin/master
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git checkout -b shila1
+Switched to a new branch 'shila1'
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (shila1)
+$ git branch -a
+  master
+* shila1
+  remotes/origin/master
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (shila1)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git branch -a
+* master
+  shila1
+  remotes/origin/master
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git checkout shila1
+Switched to branch 'shila1'
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (shila1)
+$ git branch -a
+  master
+* shila1
+  remotes/origin/master
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (shila1)
+$ git checkout shila1
+Already on 'shila1'
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (shila1)
+$ git checkout master
+Switched to branch 'master'
+Your branch is up to date with 'origin/master'.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git branch -a
+* master
+  shila1
+  remotes/origin/master
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git checkout master
+Already on 'master'
+Your branch is up to date with 'origin/master'.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git push origin master
+Everything up-to-date
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git commit
+On branch master
+Your branch is up to date with 'origin/master'.
+
+nothing to commit, working tree clean
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git branch -a
+* master
+  shila1
+  remotes/origin/master
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git checkout -b shila1
+fatal: A branch named 'shila1' already exists.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git branch -a
+* master
+  shila1
+  remotes/origin/master
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git checkout -b master
+fatal: A branch named 'master' already exists.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git branch -d gitbranch
+error: branch 'gitbranch' not found.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git branch -d git branch
+error: branch 'git' not found.
+error: branch 'branch' not found.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git branch -d shila1
+Deleted branch shila1 (was facea8b).
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git branches
+git: 'branches' is not a git command. See 'git --help'.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git log
+commit facea8b2fb02285120f8385caf0190b8483197b2 (HEAD -> master, origin/master)
+Author: shilasoham <61532369+shilasoham@users.noreply.github.com>
+Date:   Thu Feb 27 14:30:48 2020 +0530
+
+    Update f1.r
+
+    new changes
+
+commit 05af7f60c41852499141afdf85a3655340ecb5a1
+Author: shilasoham <61532369+shilasoham@users.noreply.github.com>
+Date:   Thu Feb 27 14:26:54 2020 +0530
+
+    Update f1.r
+
+commit 399a397c2c31bc5f6a6bea59db770381e898e2ef
+Author: shilasoahm <shilasoahm@gmail.com>
+Date:   Thu Feb 27 06:22:19 2020 +0530
+
+    f1.r
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git branches
+git: 'branches' is not a git command. See 'git --help'.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git branch -a
+* master
+  remotes/origin/master
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git branch -d shila1
+error: branch 'shila1' not found.
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (master)
+$ git checkout -b shila1
+Switched to a new branch 'shila1'
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (shila1)
+$ git checkout -b shila2
+Switched to a new branch 'shila2'
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (shila2)
+$ git branch -a
+  master
+  shila1
+* shila2
+  remotes/origin/master
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (shila2)
+$ git push origin master
+Everything up-to-date
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (shila2)
+remote: sh origin shila2
+remote: Create a pull request for 'shila2' on GitHub by visiting:
+remote:      https://github.com/shilasoham/shila/pull/new/shila2
+remote:
+To https://github.com/shilasoham/shila.git
+ * [new branch]      shila2 -> shila2
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (shila2)
+$ git push origin shila1
+Total 0 (delta 0), reused 0 (delta 0)
+remote:
+remote: Create a pull request for 'shila1' on GitHub by visiting:
+remote:      https://github.com/shilasoham/shila/pull/new/shila1
+remote:
+To https://github.com/shilasoham/shila.git
+ * [new branch]      shila1 -> shila1
+
+tcet@DESKTOP-UCGKT7D MINGW64 ~/Desktop/shila/shila (shila2)
+$
